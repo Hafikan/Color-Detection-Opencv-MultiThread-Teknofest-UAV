@@ -25,7 +25,7 @@ def ColorDetection(source = 0,lower = (46,204,118),upper = (180,255,255),width=6
 
     prev_time = 0
 
-    logo = cv2.imread(".logo.png")
+    logo = cv2.imread("./logo.png")
     logo = imutils.resize(logo,width=125)
 
 
