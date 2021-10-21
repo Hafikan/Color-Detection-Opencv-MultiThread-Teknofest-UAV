@@ -27,7 +27,6 @@ class GetFrames:
             else:
                 self.capture = cv2.VideoCapture(self.source)
 
-                self.capture.resize
 
         else:
             self.capture = cv2.VideoCapture(self.source)
